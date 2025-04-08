@@ -22,4 +22,6 @@ jobs:
           script: |
             cd /home/ec2-user/git_repo/AWS-EC2-and-GitHub/
             git pull
-            sudo cp html.html /var/www/html/index.html
+            sudo cp index.html /var/www/html/index.html
+            sudo cp VPV00111.jpg /var/www/html/VPV00111.jpg
+            Sudo cp Screenshot.png /var/www/html/Screenshot.png
